@@ -196,6 +196,15 @@ a:link {
 
 .column-5 {
     width: 100%;
-    padding: 2.5em 0em;
+    padding: 2em 0em;
     background: #1F2937;
+}
+
+.column-5 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-size: 14px;
 }
