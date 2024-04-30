@@ -161,6 +161,37 @@ a:link {
 .column-4 {
     width: 100%;
     padding: 8em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    border: 4px solid#3882F6;
+    width: 50%;
+    padding: 2em 4em;
+    background: #3882F6;
+    border-radius: 8px;
+}
+
+.sign-up .container {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;;
+}
+
+.sign-up .container button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6em;
+    flex: auto;
+    font-weight: bolder;
 }
 
 .column-5 {
